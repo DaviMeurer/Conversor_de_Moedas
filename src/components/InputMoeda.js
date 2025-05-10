@@ -6,7 +6,7 @@ export default function InputMoeda(props){
             placeholder="Digite o valor"
             keyboardType="numeric"
             value={props.valor}
-            onChangeText={(text) => setValor(text)}
+            onChangeText={(text) => props.setValor()}
         </TextInput>
     </View>
 }
